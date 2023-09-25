@@ -132,3 +132,20 @@ img{
   transform: translateY(-2rem) translateZ(-20px);
   rotate: x calc(var(--rotate) * -1);
 }
+
+.title-header {
+  padding: 0.5rem;
+}
+
+.rs-shop-header, .rs-shop-subheader {
+font-size: 48px;
+line-height: 1.08349;
+font-weight: 600;
+letter-spacing: -.003em;
+font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+display: inline;
+}
+
+.rs-shop-header {
+  color: white;
+}
