@@ -24,7 +24,7 @@ img{
   aspect-ratio: 9 / 16;
   /* outline: 3px solid gold; */
   position: relative;
-  transform-style: : preserve-3d;
+  transform-style: preserve-3d;
   
   transition: rotate var(--timing) ease;
 }

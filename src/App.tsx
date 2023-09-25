@@ -16,7 +16,7 @@ function App() {
         />
         <img
           className="bg-image"
-          src="/src/assets/tyrion_bg_4.jpeg"
+          src="https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/tyrion_bg_4.jpeg?raw=true"
           alt="fg"
         />
       </div>
