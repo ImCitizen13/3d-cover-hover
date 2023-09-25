@@ -23,18 +23,10 @@ function App() {
   const hoverCards: HoverCard[] = [
     {
       bgImgSrc:
-        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/tyrion_bg.jpeg?raw=true",
+        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/onepiece_bg.png?raw=true",
       logoImgSrc:
-        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/tyrion_logo.png?raw=true",
-      frontImgSrc:
-        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/tyrion_fg.png?raw=true",
-    },
-    {
-      bgImgSrc:
-        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/onepiece_bg.jpeg?raw=true",
-      logoImgSrc:
-        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/onepiece_logo.jpeg?raw=true",
-      frontImgSrc:
+        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/onepiece_logo.png?raw=true",
+      fgImgSrc:
         "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/onepiece_fg.png?raw=true",
     },
     {
@@ -42,8 +34,16 @@ function App() {
         "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/tyrion_bg.jpeg?raw=true",
       logoImgSrc:
         "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/tyrion_logo.png?raw=true",
-      frontImgSrc:
+      fgImgSrc:
         "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/tyrion_fg.png?raw=true",
+    },
+    {
+      bgImgSrc:
+        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/op_bg.jpeg?raw=true",
+      logoImgSrc:
+        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/onepiece_logo.png?raw=true",
+      fgImgSrc:
+        "https://github.com/ImCitizen13/3d-cover-hover/blob/main/src/assets/op_fg.png?raw=true",
     },
   ];
   return (
