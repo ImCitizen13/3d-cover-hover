@@ -11,12 +11,21 @@ html {
 
 
 .hover-cards {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
   justify-content: center;
   gap: 4rem/* 16px */;
   width: 100%;
   /* overflow-x: auto; */
   padding: 2rem/* 32px */;
+}
+
+.hover-cards > * {
+  grid-column: 2 / -2;
+}
+.hover-cards > .full {
+  grid-column: 1 / -1;
 }
 
 img{
