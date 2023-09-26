@@ -1,4 +1,5 @@
 import "./App.css";
+import StarAnimation from "./StarAnimation";
 
 type HoverCard = {
   bgImgSrc: string;
@@ -47,6 +48,7 @@ function App() {
     },
   ];
   return (
+    <>
     <div>
       <div className="title-header">
         <h1 className="rs-shop-header">3D Hover Cards. </h1>
@@ -64,6 +66,8 @@ function App() {
         })}
       </div>
     </div>
+    <StarAnimation/>
+    </>
   );
 }
 
