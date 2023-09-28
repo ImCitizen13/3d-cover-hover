@@ -4,29 +4,46 @@
 }
 
 html {
+  width: 100%;
+  height: 100%;
   color-scheme: dark;
   background-color: rgb(1, 1, 1);
-  /* background-color: #f5f5f7; */
 }
+
 
 
 .hover-cards {
+  display: flex;
+  overflow-x: auto;
+
   /* display: flex; */
-  display: grid;
-  grid-template-columns: 20px 1fr 20px;
+  /* flex-wrap: nowrap; */
+  /* grid-template-rows: repeat(auto-fit, minmax()); */
+  /* Centering */
   justify-content: center;
-  gap: 4rem/* 16px */;
-  width: 100%;
-  /* overflow-x: auto; */
-  padding: 2rem/* 32px */;
+  align-items: center;
+  
+
+  background-color: gray;
+  gap: 2rem;
+  min-width: 100%;
+  min-height: 200px;
+  /* width: 100%;
+  max-height: 100vh; */
+  padding: 8rem;
 }
 
-.hover-cards > * {
-  grid-column: 2 / -2;
+.card::-webkit-scrollbar {
+  display: none;
 }
-.hover-cards > .full {
-  grid-column: 1 / -1;
+
+.hover-cards--content {
+  background-color: #e74c3c;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 5px;
 }
+
 
 img{
   max-width: 100%;
@@ -35,8 +52,8 @@ img{
 .card{
   min-height: 100vh; 
   perspective: 2000px;
-  display: grid;
-  place-content:center;
+  /* display: grid; */
+  /* place-content:center; */
 }
 
 .pop-out {

@@ -49,7 +49,6 @@ function App() {
   ];
   return (
     <>
-    <div>
       <div className="title-header">
         <h1 className="rs-shop-header">3D Hover Cards. </h1>
         <div className="rs-shop-subheader">Take a look.</div>
@@ -64,9 +63,18 @@ function App() {
             ></HoverCardView>
           );
         })}
+        {/* <div className="card--content"></div>
+        <div className="card--content"></div>
+        <div className="card--content"></div>
+        <div className="card--content"></div>
+        <div className="card--content"></div>
+        <div className="card--content"></div>
+        <div class="card--content"></div>
+        <div className="card--content"></div>
+        <div className="card--content"></div>
+        <div className="card--content"></div> */}
       </div>
-    </div>
-    <StarAnimation/>
+      {/* <StarAnimation/> */}
     </>
   );
 }
